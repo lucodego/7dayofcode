@@ -109,7 +109,5 @@ article{
 #recruta{
   display: flex;
   flex-direction: column;
-}
-#reuniao{
-    margin: auto
+  align-items: center;
 }
