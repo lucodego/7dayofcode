@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css" media="all">
+    <link rel="stylesheet" href="style-mediaq.css">
     <title>OptimusTech</title>
 </head>
 <body>
     <header>
         <div id="cabe">
             <img src="CSS/logofinal.png" alt="Logo" id="imagem">
+            <button id="menu-botao">&#9776;</button>
             <p>
-                <input type="button" value="Home">
-                <input type="button" value="Produtos">
-                <input type="button" value="Recursos">
-                <input type="button" value="Sobre nós">
+                <div id="menu">
+                    <input type="button" value="Home">
+                    <input type="button" value="Produtos">
+                    <input type="button" value="Recursos">
+                    <input type="button" value="Sobre nós">
+                </div>
             </p>
             <p>
                 <input type="button" value="Entrar">
@@ -25,7 +29,7 @@
     <main>
         <section id="sobnos">
             <h2 class="stit">Sobre nós</h2>
-            <h1 class="tit">Por que somos diferentes?</h1>
+            <h1>Por que somos diferentes?</h1>
             <p id="ref">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
         </section>
         <section id="feitos">
@@ -50,9 +54,15 @@
                 <p class="txt">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
             </article>
         </section>
+        <section id="recruta">
+            <h1>Estamos procurando por talentos</h1>
+            <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro</p>
+            <img src="CSS/reunião.png" alt="Reunião" id="reuniao">
+        </section>
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
