@@ -78,15 +78,15 @@ h1{
 /*final 1º section*/
 /*Começo 2º section #feitos*/
 #feitos{
+    margin: auto;
+    width: 80%;
     height: 288px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-flow: row wrap;
 }
 article{
     width: 25%;
     display: flex;
-    align-content: space-evenly;
     flex-direction: column;
 }
 .qtd{
@@ -106,6 +106,9 @@ article{
     height: 100px;
     text-align: left;
 }
+/* Final section #feitos 
+   começo section recruta 
+*/
 #recruta{
     height: 1798px;
     display: flex;
@@ -119,20 +122,33 @@ article{
 #functit{
     text-align: left;
 }
+img{
+    padding-top: 30px;
+}
+/*final recruta
+  começo vagas  
+*/
 .func{
     border: 1px solid rgba(128, 128, 128, 0.226);
     border-radius: 10px;
+    height: 90px;
     margin-bottom: 5%;
-    padding: 5px 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 5px;
 }
 #functit{
     font-size: 1.3em;
 }
 h2{
     font-size: 1em;
-    padding: 10px;
-    
+    padding: 10px 20px;
 }
+#vagas{
+    width: 70%;
+}
+.psal{
+    padding-left: 20px;
+    text-align: left;
+}
+/*final vagas
+  comeco colaboradores
+*/

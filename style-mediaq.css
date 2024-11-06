@@ -7,4 +7,7 @@
     button{
         display: block;
     }
+    #feitos{
+        height: 10%;
+    }
 }
