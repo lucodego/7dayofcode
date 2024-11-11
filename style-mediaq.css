@@ -10,4 +10,7 @@
     #feitos{
         height: 10%;
     }
+    article{
+        flex-basis: 288px;
+    }
 }
