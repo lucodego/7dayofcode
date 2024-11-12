@@ -111,7 +111,6 @@ article{
    começo section recruta 
 */
 #recruta{
-    height: 1798px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,3 +155,11 @@ h2{
 /*final vagas
   comeco colaboradores
 */
+#colaboradores{
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 10px;
+}
+#texto{
+    font-size: 1.5em;
+    text-align: center;
+}

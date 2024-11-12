@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     #menu{
         display: none;
+    }
+    #menu-botao{
+        margin-left: 20%;
     }
     button{
         display: block;
